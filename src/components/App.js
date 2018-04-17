@@ -3,7 +3,6 @@ import React from 'react';
 
 const App = props => (
   <div>
-  	<div> A global Nav here </div>
     { props.children }
   </div>
 

@@ -1,8 +1,8 @@
 .productContainer {
 	width: 350px;
-	height: 375px;
 	float: left;
-	display: inline-block;	
+	display: inline-block;
+	margin-bottom: 10px;	
 }
 
 #cardContainer {
@@ -14,5 +14,79 @@
 	content: "";
 	clear: both; 
 }
+
+.section {
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: gray;
+	box-sizing: border-box;
+	margin: 0px 7px;
+}
+
+.topSection {
+	border-top: 1px solid gray;
+	height: 82px;
+}
+
+.topImage {
+	width: 80px;
+}
+
+.topData {
+	width: 159px;
+}
+
+.topPercentile {
+	width: 95px;
+}
+
+.imageStyle {
+	width: 50px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 82px;
+}
+
+.topSection:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.topImage, .topData, .topPercentile {
+	box-sizing: border-box;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+}
+#score {
+	font-size: 30px;
+}
+
+.topPercentile {
+	background-color: green;
+}
+
+.topImage {
+	line-height: 82px;
+}
+
+.middleSection {
+	height: 165px;
+}
+
+.thirdSection {
+	height: 90px;
+}
+
+.bottomSection {
+	height: 40px;
+}
+
+
+
+
 
 

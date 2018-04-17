@@ -27,17 +27,9 @@ export class Cards extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <div> Hi There from Header  </div>
-        </header>
-        <p className="App-intro">
-          Hello There from body
-        </p>
         <div id="cardContainer">
           {this.renderApiData()}
         </div>
-        
-        <br />
       </div>
     );
   }
