@@ -1,0 +1,21 @@
+@import './product.scss';
+body {
+  padding: 5%;
+  text-align: center;
+}
+
+th, td, form {
+    padding: 5px;
+}
+
+select {
+  height: 20px;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
