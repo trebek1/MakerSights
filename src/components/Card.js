@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import Chart from './Chart';
 
 const Card = props => {
 	const { product, ratingsWithFilters, sentimentWithFilters } = props.data;
-	console.log(props.data);
 	return (
 	  <div className="productContainer">
 	    <div className="section topSection"> 
@@ -24,15 +24,16 @@ const Card = props => {
 	    </div>
 	    <div className="section middleSection">
 	    <div className="detractors"> 
-	    	<div> Detractors</div>
-	    	<div> 2% </div>
+	    	<div className="inline"> Detractors</div>
+	    	<div className="inline"> 2% </div>
 	    </div>
 	    <div className="graph">
-	    	<div> graph</div>
+	    	{/*<div className="inline"> <Chart data={ratingsWithFilters} /></div>*/}
+	    	<div> Chart Here </div>
 	    </div>
 	    <div className="advocates">
-	    	<div>Advocates</div>
-	    	<div> 47% </div>
+	    	<div className="inline">Advocates</div>
+	    	<div className="inline"> 47% </div>
 	    </div>
 
 	    </div>

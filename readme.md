@@ -1,3 +1,6 @@
+
+To Run: npm install, npm start;
+
 Compilation using webpack and babel-cli (Notes)
 1). using babel-cli to get access to babel-node to compile webpack config and express config 
 
@@ -24,38 +27,4 @@ Packages: Enzyme: enzyme enzyme-adapter-react-16 enzyme-to-json
 
 Snapshot testing not included but could be implemented 
 5). I did not setup snapshot testing
-
-Enzyme API Reference 
-
-API Reference
-
-* Shallow Rendering
-import { shallow } from 'enzyme';
-
-const wrapper = shallow(<MyComponent />);
-// ...
-
-* Full Rendering
-import { mount } from 'enzyme';
-
-const wrapper = mount(<MyComponent />);
-// ...
-
-* Static Rendering
-import { render } from 'enzyme';
-
-const wrapper = render(<MyComponent />);
-// ...
-
-use component.debug to see the component that is being rendered
-
-
-
-
-
-
-
-
-
-
 
