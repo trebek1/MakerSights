@@ -27,7 +27,7 @@ export class Cards extends Component {
   render() {
     return (
       <div className="App">
-        <div id="cardContainer">
+        <div id="cardContainer" className="clearfix">
           {this.renderApiData()}
         </div>
       </div>
